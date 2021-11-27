@@ -21,6 +21,12 @@ In the code there are two additional hybrid sections where the Mathematica langu
 The first hybrid section can be used to study the realization of the standard Shi-Fuller mechanism in non-standard cosmological scenarios. We apply it to the case in which the production of sterile neutrinos starts at T = 30 MeV.  
 The second hybrid section can be used to study a special case of the Shi-FUller mechanism in which sterile neutrinos violate CPT symmetry. The concrete effect of such violation is that only sterile neutrinos (antineutrinos) mix with active neutrinos (antineutrinos) and therefore the presence of primordial lepton asymmetry can lead to a natural suppression of the final abundance of sterile neutrino dark matter, even in standard cosmological scenarios.
 
+The code includes also lines to repropduce in the parameter space plot:
+ - the line representing the requirement that sterile neutrinos are stable on timescales comparable with the age of the universe  
+ - borders of the regions in which the experiments TRISTAN, ECHo and HUNTER will be sensitive to sterile neutrinos mixing with electron neutrinos or antineutrinos  
+ - borders of the current constraint coming from X-ray oservations (full and relaxed, in case of "cocktail dark matter" and in case of reduced sterile neutrino decay rate due to new physics)  
+ - borders of the region disfavoured by satellites counting
+
 ### Useful external links
 Sterile-dm code: https://github.com/ntveem/sterile-dm  
-This code is used to carry out the work published in https://arxiv.org/abs/1911.00328 
+This code was written to carry out the work published in https://arxiv.org/abs/1911.00328, _please cite the paper if you use the code_
